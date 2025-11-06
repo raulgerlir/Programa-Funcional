@@ -18,6 +18,6 @@ public class RandomNumb {
     }
 
     static void main() {
-        repeatEverySecond(RandomPrinter::printRandomNumber);
+        repeatEverySecond(RandomNumb::printRandomNumber);
     }
 }
