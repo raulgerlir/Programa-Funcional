@@ -15,7 +15,7 @@ public class RandomNumb {
         }
     }
      /**
-     * Imprime un número aleatorio entre 0 y 99.
+     * Imprime un número aleatorio entre 0 y 99
      */
     public static void printRandomNumber() {
         Random r = new Random();
