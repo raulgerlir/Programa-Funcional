@@ -7,7 +7,7 @@ public class RandomPrinter {
             action.run();
             try {
                 Thread.sleep(1000);
-            } catch (InterruptedException e) {}
+            } catch (InterruptedException _) {}
             count++;
         }
     }
@@ -17,7 +17,7 @@ public class RandomPrinter {
         System.out.println("Random number: " + r.nextInt(100));
     }
 
-    public static void main(String[] args) {
+    static void main() {
         repeatEverySecond(RandomPrinter::printRandomNumber);
     }
 }
