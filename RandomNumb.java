@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class RandomPrinter {
+public class RandomNumb {
     public static void repeatEverySecond(Runnable action) {
         int count = 0;
         while (count < 5) {
